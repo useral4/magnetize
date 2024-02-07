@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="style/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Magnetize Studio</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#"><img src="style/img/logo.png" alt=""></a></li>
+            <li><a href="#" style="color:#ff1818">О нас</a></li>
+            <li><a href="page-2.html">Услуги</a></li>
+            <li><a href="page-3.html">Кейсы</a></li>
+            <li><a href="page-4.html">Карьера</a></li>
+            <li><a href="page-5.html">Контакты</a></li>
+            <li><a href="#"><button class="openModalBtn" onclick="openModal()">Оставить заявку</button></a></li>
+        </ul>
+    </header>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form action="">
+                <input type="text" placeholder="Ваше ФИО"></input>
+                <input type="text" placeholder="Электронная почта"></input>
+                <input type="text" placeholder="Ваш проект"></input>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Пожелания"></textarea>
+                <button>Отправить</button>
+            </form>
+        </div>
+    </div>
+    <div class="main-promo">
+        <div class="main-promo-img">
+        <img src="style/img/main_promo_img.png" alt="">
+    </div>
+    <a href="#"><button class="">
+                <p>обсудим проект?</p>
+            </button></a>
+    </div>
+    <div class="second-promo">
+        <h1>наши проекты</h1>
+        <div class="second-promo-btn">
+            <div class="second-promo-btn-item"><button>все проекты</button></div>
+            <div class="second-promo-btn-item"><button>фирменный стиль</button></div>
+            <div class="second-promo-btn-item"><button>SMM</button></div>
+        </div>
+        <div class="second-promo-btn">
+            <div class="second-promo-btn-item"><button>продакшн</button></div>
+            <div class="second-promo-btn-item"><button>стратегия</button></div>
+            <div class="second-promo-btn-item"><button>трафик</button></div>
+        </div>
+    </div>
+    <div class="third-promo">
+        <div class="third-promo-container">
+            <div class="third-promo-image">
+                <img src="style/img/tp-image-1.svg" alt="">
+                <img src="style/img/tp-image-2.svg" alt="">
+                <img src="style/img/tp-image-3.svg" alt="">
+                <img src="style/img/tp-image-4.svg" alt="">
+            </div>
+            <div class="third-promo-next"> 
+                <a href="page-3.html">смотреть все</a>
+                <div class="third-promo-arrow">→</div> 
+            </div>
+        </div>
+    </div>
+    <div class="fourth-promo">
+        <div class="fourth-promo-container">
+            <div class="about-us">
+                <h2>о нас</h2>
+            </div>
+            <div class="about-items">
+                <div class="about-block"><span>>500</span><br>проектов, успешно реализованных в различных сферах бизнеса</div>
+                <div class="about-block"><span>>10</span><br>лет опыта в маркетинге, суммарно накопленных нашими командой</div>
+            </div>
+            <div class="about-items">
+                <div class="about-block"><span>80%</span><br>клиентов, пришедших по рекомендации</div>
+                <div class="about-block"><span>91%</span><br>среднее удержание абонентских контрактов</div>
+            </div>
+            <div class="about-image">
+                <img src="style/img/about-us.svg" alt="img-left">
+                <a href="#" id="discussProject"><img src="style/img/tell-project.svg" alt="img-right"></a>
+            </div>
+        </div>
+    </div>
+    <div class="form-all">
+    <div class="form-container">
+        <h2>Ищем таланты</h2>
+        <p style="color: #fff">Мы постоянно находимся в поиске талантливых специалистов, готовых творить и создавать новое!</p>
+
+        <form>
+            <input type="text" id="name" name="name" placeholder="Имя" required><br><br>
+
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+            <input type="text" id="phone" name="phone" placeholder="Телефон" required><br><br>
+
+            <button type="submit"><a href="mailto:alisher123456174@yandex.ru?subject=Magnetize:Resume" style="color: black; text-decoration: none;">хочу в команду</a></button>
+        </form>
+    </div>
+    
+    <div class="form-container">
+        <h2 style="color: #000">Блог</h2>
+        <form>
+            <img src="style/img/blog.svg" alt="">
+            <p>С 1 сентября 2023 года каждую рекламную публикацию нужно маркировать.<br><br>
+                Рассказываем о том, что нужно делать, чтобы обезопасить себя.</p>
+            <button type="submit"><a href="page-3.html" style="text-decoration: none;">смотреть все</a></button>
+        </form>
+    </div>
+</div>
+<footer>
+    <div class="social">
+    <img src="style/img/vk.svg" alt="">
+    <img src="style/img/telegram.svg" alt="">
+    <span>SHOWREEL</span>
+    <span>+7 (999) 999-99-99<br>
+        magnetize@partner.ru</span>
+        
+        <span>© All rights reserved.<br>
+Magnetize Studio</span>
+</div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

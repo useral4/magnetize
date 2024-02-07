@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Magnetize Studio</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#"><img src="style/img/logo.png" alt=""></a></li>
+            <li><a href="index.html">О нас</a></li>
+            <li><a href="page-2.html">Услуги</a></li>
+            <li><a href="page-3.html">Кейсы</a></li>
+            <li><a href="page-4.html">Карьера</a></li>
+            <li><a href="#" style="color:#ff1818">Контакты</a></li>
+            <li><a href="#"><button class="openModalBtn" onclick="openModal()">Оставить заявку</button></a></li>
+        </ul>
+    </header>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form action="">
+                <input type="text" placeholder="Ваше ФИО"></input>
+                <input type="text" placeholder="Электронная почта"></input>
+                <input type="text" placeholder="Ваш проект"></input>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Пожелания"></textarea>
+                <button>Отправить</button>
+            </form>
+        </div>
+    </div>
+    <div class="block-contacts">
+        <div class="block-contacts-item">
+            <h2>Сотрудничество</h2>
+            <p>+7(999)-999-99-99<br>
+                partner@magnetize.com<br>
+                Михаил Шишкин, менеджер.</p>
+        </div>
+        <div class="block-contacts-item">
+            <h2>Карьера</h2>
+            <p>+7(999)-999-99-99<br>
+                team@magnetize.com<br>
+                Иван Фундуков, HR.</p>
+        </div>
+        <div class="block-contacts-item">
+            <h2>Соцсети</h2>
+            <p>Telegram<br>
+                VK<br>
+                YouTube</p>
+        </div>
+        <div class="block-contacts-item">
+            <h2>График работы</h2>
+            <p>ПН-ПТ: 10:00-19:00<br>
+               СБ-ВС: 12:00-21:00<br></p>
+        </div>
+    </div>
+    <footer style="margin-top: 150px;">
+        <div class="social">
+        <img src="style/img/vk.svg" alt="">
+        <img src="style/img/telegram.svg" alt="">
+        <span>SHOWREEL</span>
+        <span>+7 (999) 999-99-99<br>
+            magnetize@partner.ru</span>
+            
+            <span>© All rights reserved.<br>
+    Magnetize Studio</span>
+    </div>
+        </footer>
+        <script src="scripts/script.js"></script>
+</body>
+</html>

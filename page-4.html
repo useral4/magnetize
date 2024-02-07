@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Magnetize Studio</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#"><img src="style/img/logo.png" alt=""></a></li>
+            <li><a href="index.html">О нас</a></li>
+            <li><a href="page-2.html">Услуги</a></li>
+            <li><a href="page-3.html">Кейсы</a></li>
+            <li><a href="#" style="color:#ff1818">Карьера</a></li>
+            <li><a href="page-5.html">Контакты</a></li>
+            <li><a href="#"><button class="openModalBtn" onclick="openModal()">Оставить заявку</button></a></li>
+        </ul>
+    </header>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form action="">
+                <input type="text" placeholder="Ваше ФИО"></input>
+                <input type="text" placeholder="Электронная почта"></input>
+                <input type="text" placeholder="Ваш проект"></input>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Пожелания"></textarea>
+                <button>Отправить</button>
+            </form>
+        </div>
+    </div>
+    <h1>карьера</h1>
+    <div class="under-career">
+        <div class="under-career-one">
+            Наш подход - soft skills важнее,<br>
+            чем hard skills. Мы открыты <br>
+            каждому и готовы познакомиться.
+        </div>
+        <div class="under-career-two">
+            Мы рассматриваем как Junior программистов,<br>
+            для прохождения стажировок, так и Senior <br>экспертов для развития команды.
+        </div>
+    </div>
+
+    <div class="block-team">
+
+        <h2>кто есть в нашей команде?</h2>
+        <div class="block-team-container">
+            <img src="style/img/main_promo_img.png" alt="" class="block-team-img">
+            <div class="block-team-table">
+                <hr>
+                Руководители подразделений
+                <hr>
+                Менеджеры проектов
+                <hr>
+                SMM-специалисты
+                <hr>
+                PR-менеджеры
+                <hr>
+                Дизайнеры
+                <hr>
+                Трафик-менджеры
+                <hr>
+                HR-специалисты
+                <hr>
+                Финансовый менеджер
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="block-study">
+        <div class="block-study-one">
+            <h2>КАК МЫ РАЗВИВАЕМ
+                СОТРУДНИКОВ?</h2>
+            <b>Проводим внутреннее обучение</b> - мы верим, что залог успеха - непрерывное обучение. Ведь без
+            постоянного развития мы не просто сидим на месте, мы откатываемся назад. Поэтому наша команда следит за
+            трендами, проводит образовательные презентации,
+            воркшопы и мастер-классы на повышение hard и soft скиллов.
+        </div>
+        <div class="block-study-two">
+            <h2>КАК МЫ РАБОТАЕМ С НАЧИНАЮЩИМИ СПЕЦИАЛИСТАМИ?</h2>
+            <b>Организуем стажировки → Проводим внешние обазовательные мероприятия → Развиваем партнерские программы с
+                ВУЗами</b>
+        </div>
+    </div>
+    <div class="search-employee">
+        <h2>Мы постоянно находимся в поиске талантов</h2>
+        <a href="#" style="color: white; text-decoration: none;"><button onclick="openModal()"> хочу в команду</button></a>
+    </div>
+
+    <footer>
+        <div class="social">
+            <img src="style/img/vk.svg" alt="">
+            <img src="style/img/telegram.svg" alt="">
+            <span>SHOWREEL</span>
+            <span>+7 (999) 999-99-99<br>
+                magnetize@partner.ru</span>
+
+            <span>© All rights reserved.<br>
+                Magnetize Studio</span>
+        </div>
+
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
